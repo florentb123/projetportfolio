@@ -11,7 +11,13 @@ html:root{
 
 
 
-
+.bg-img {
+    min-height: 500px;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 .navbar-light .navbar-nav .nav-link.active{
     color: var(--cyan)
 }
@@ -41,5 +47,9 @@ html:root{
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus{
     box-shadow: 0 0 0 0.2rem rgba(16, 201, 195, 0.50);
+}
+
+.my-50{
+    margin: 135px 0;
 }
 
