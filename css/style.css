@@ -29,7 +29,7 @@ html:root{
 }
 .portfolio-box-photo::before{
     content: "+";
-    width: 270px;
+    width: 100%;
     height: 270px;
     background-color: var(--grey-dark);
     color: var(--white);
