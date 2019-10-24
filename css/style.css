@@ -4,6 +4,19 @@ html:root{
 --grey-dark: rgb(59,65,72);
 --grey-light:rgb(85,95,102);
 }
+/*debut About*/
+.mb-lg-2, .my-lg-2 {
+    margin-bottom: 1.5rem!important;
+}
+.mt-lg-2, .my-lg-2 {
+    margin-top: 1.5rem!important;
+}
+.w-50 {
+    width: 53%!important;
+}
+/*fin About*/
+
+
 /*section portfolio*/
 
 .portfolio-box-photo{
@@ -62,4 +75,4 @@ html:root{
     background-image:url(http://picsum.photos/465/285);
     
 }
-
+/*section portfolio fin*/
