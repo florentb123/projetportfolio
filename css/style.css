@@ -10,7 +10,6 @@ html:root{
     width: 270px;
     height: 270px;
     background-color: var(--grey-dark);
-    margin-bottom: 15px;
     background-position: center;
     background-size: cover;
     background-blend-mode:luminosity;
