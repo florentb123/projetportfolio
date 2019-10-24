@@ -1,0 +1,66 @@
+html:root{
+--blue:rgb(128,201,253);
+--white:#fff;
+--grey-dark: rgb(59,65,72);
+--grey-light:rgb(85,95,102);
+}
+/*section portfolio*/
+
+.portfolio-box-photo{
+    width: 270px;
+    height: 270px;
+    background-color: var(--grey-dark);
+    margin-bottom: 15px;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:luminosity;
+}
+.portfolio-box-photo::before{
+    content: "+";
+    width: 270px;
+    height: 270px;
+    background-color: var(--grey-dark);
+    color: var(--white);
+    text-align: center;
+    font-size: 2em;
+    display: none;
+    line-height: 270px;
+    cursor: pointer;
+}
+.portfolio-box-photo:hover::before{
+    display: block;
+
+}   
+.portfolio-box-photo-bg1{
+    background-image:url(http://picsum.photos/465/285);
+
+}
+.portfolio-box-photo-bg2{
+    background-image:url(http://picsum.photos/465/285);
+    
+}
+.portfolio-box-photo-bg3{
+    background-image:url(http://picsum.photos/465/285);
+    
+}
+.portfolio-box-photo-bg4{
+    background-image:url(http://picsum.photos/465/285);
+    
+}
+.portfolio-box-photo-bg5{
+    background-image:url(http://picsum.photos/465/285);
+    
+}
+.portfolio-box-photo-bg6{
+    background-image:url(http://picsum.photos/465/285);
+    
+}
+.portfolio-box-photo-bg7{
+    background-image:url(http://picsum.photos/465/285);
+    
+}
+.portfolio-box-photo-bg8{
+    background-image:url(http://picsum.photos/465/285);
+    
+}
+
