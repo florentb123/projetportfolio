@@ -11,7 +11,9 @@ html:root{
 .p-90{
     padding: 90px 0;
 }
-
+.row {
+    margin: 0;
+}
 
 /* header */
 
@@ -130,8 +132,6 @@ html:root{
 .portfolio-box-photo::before{
     content: "+";
     width: 100%;
-    min-height: 50px;
-    max-height: 300px;
     background-color: var(--grey-dark);
     color: var(--white);
     text-align: center;
@@ -176,4 +176,15 @@ html:root{
     background-image:url(http://picsum.photos/465/285);
     
 }
+
+.color-darker-white{
+    background-color: rgb(245,245 ,245);
+}
+.btn:focus{
+    box-shadow: none;
+}
+.btn:not(:disabled):not(.disabled):active:focus{
+    box-shadow: none;
+}
+
 /*section work fin*/
