@@ -94,7 +94,7 @@ html:root{
     background-image: url(http://picsum.photos/465/285);
     background-position: center;
     background-size: cover;
-
+    background-repeat: no-repeat;
 }
 
 .progress{ 
@@ -135,7 +135,6 @@ html:root{
     width: 25%;
     height: 300px;
     padding: 0;
-    background-color: var(--grey-dark);
     background-position: center;
     background-size: cover;
     background-blend-mode:luminosity;
