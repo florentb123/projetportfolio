@@ -55,9 +55,9 @@ html:root{
     box-shadow: 0 0 0 0.2rem rgba(16, 201, 195, 0.50);
 }
 
-.my-50{
+/* .my-50{
     margin: 135px 0;
-}
+} */
 
 
 
@@ -119,7 +119,7 @@ html:root{
 /* section work */
 
 .portfolio-box-photo{
-    width: 340px;
+    width: 25%;
     height: 300px;
     background-color: var(--grey-dark);
     background-position: center;
@@ -128,7 +128,7 @@ html:root{
 }
 .portfolio-box-photo::before{
     content: "+";
-    width: 340px;
+    width: 100%;
     height: 300px;
     background-color: var(--grey-dark);
     color: var(--white);
