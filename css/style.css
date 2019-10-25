@@ -177,3 +177,15 @@ html:root{
     
 }
 /*section work fin*/
+
+/* section work process */
+.w-50 {
+    width: 45%!important;
+}
+.mb-lg-2, .my-lg-2 {
+    margin-bottom: 3rem!important;
+}
+
+/* section work process fin */
+
+
