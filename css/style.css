@@ -104,9 +104,6 @@ html:root{
 
 
 
-
-
-
 /* section number */
 
 .bg-cyan{
@@ -117,17 +114,6 @@ html:root{
 .l-height{
     line-height: 1.2;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* section work */
 
@@ -198,3 +184,19 @@ html:root{
 }
 
 /*section work fin*/
+
+/* section work process */
+.w-50 {
+    width: 45%!important;
+}
+.mb-lg-2, .my-lg-2 {
+    margin-bottom: 3rem!important;
+}
+/* section work process fin */
+.bg-gris{
+    background-color: var(--grey-light);
+    color: var(--dark);
+}
+
+
+
