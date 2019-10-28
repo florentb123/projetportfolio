@@ -126,7 +126,7 @@ html:root{
     background-blend-mode:luminosity;
 }
 .portfolio-box-photo::before{
-    content: "+";
+    content: url(../media/yeux.png);
     width: 100%;
     background-color: var(--grey-dark);
     color: var(--white);
