@@ -118,7 +118,6 @@ html:root{
 /* section work */
 
 .portfolio-box-photo{
-    width: 25%;
     height: auto;
     height: 300px;
     padding: 0;
@@ -142,36 +141,8 @@ html:root{
 
 }   
 .portfolio-box-photo-bg1{
-    background-image:url(http://picsum.photos/465/285);
+    background-image:url(/media/laptop.jpg);
 
-}
-.portfolio-box-photo-bg2{
-    background-image:url(http://picsum.photos/465/285);
-    
-}
-.portfolio-box-photo-bg3{
-    background-image:url(http://picsum.photos/465/285);
-    
-}
-.portfolio-box-photo-bg4{
-    background-image:url(http://picsum.photos/465/285);
-    
-}
-.portfolio-box-photo-bg5{
-    background-image:url(http://picsum.photos/465/285);
-    
-}
-.portfolio-box-photo-bg6{
-    background-image:url(http://picsum.photos/465/285);
-    
-}
-.portfolio-box-photo-bg7{
-    background-image:url(http://picsum.photos/465/285);
-    
-}
-.portfolio-box-photo-bg8{
-    background-image:url(http://picsum.photos/465/285);
-    
 }
 
 .color-darker-white{
