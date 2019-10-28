@@ -173,6 +173,55 @@ html:root{
     background-color: var(--grey-light);
     color: var(--dark);
 }
+.formulaire {
+    padding: 20px 30px 20px 30px;
+    }
+    
+    .formulaire label {
+    display: block;
+    margin: 0px 0px 5px;
+    font-size: 19px;
+    color: black;
+    }
+    
+    .formulaire input,
+    .formulaire textarea {
+    border: none;
+    color: #525252;
+    height: 40px;
+    line-height: 15px;
+    margin-bottom: 16px;
+    margin-right: 35px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;
+    width: 97%;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    }
+    
+    .formulaire textarea {
+    height: 200px;
+    color: #525252;
+    }
+    
+    
+    .formulaire input[type='submit'] {
+    background: #333;
+    border: none;
+    color: #FFF;
+    }
+    
+    .formulaire input[type='submit']:hover {
+    color: #333333;
+    background-color: #FFF;
+    }
+    a:not([href]):not([tabindex]) {
+        text-decoration: none;
+    }
+    
+
 
 .carousel-indicators li{
     width: 6px;
