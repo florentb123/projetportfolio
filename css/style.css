@@ -30,6 +30,10 @@ html:root{
     color: var(--cyan)
 }
 
+.navbar-collapse{
+    text-align: center;
+}
+
 
 .col-5{
     padding-left: 73px;
@@ -174,7 +178,24 @@ html:root{
     width: 6px;
     height: 6px;
     border-radius: 100%;
+    border: 2px solid transparent;
 }
+.carousel-indicators li.active{
+    border: 2px solid var(--white);
+}
+
+.bg-dark{
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+
+
 
 @media (max-width:767.98px){
     .bg-skill{
