@@ -119,6 +119,7 @@ html:root{
 
 .portfolio-box-photo{
     width: 25%;
+    height: auto;
     height: 300px;
     padding: 0;
     background-position: center;
@@ -198,5 +199,15 @@ html:root{
     color: var(--dark);
 }
 
+.carousel-indicators li{
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+}
 
+@media (max-width:767.98px){
+    .bg-skill{
+        display: none;
+    }
+}
 
