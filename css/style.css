@@ -30,6 +30,10 @@ html:root{
     color: var(--cyan)
 }
 
+.navbar-collapse{
+    text-align: center;
+}
+
 
 .col-5{
     padding-left: 73px;
