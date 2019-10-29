@@ -220,9 +220,6 @@ html:root{
     a:not([href]):not([tabindex]) {
         text-decoration: none;
     }
-    
-
-
 .carousel-indicators li{
     width: 6px;
     height: 6px;
@@ -232,14 +229,16 @@ html:root{
 .carousel-indicators li.active{
     border: 2px solid var(--white);
 }
-
 .bg-dark{
     background-color: var(--dark);
     color: var(--white);
 }
-
 ul li{
     list-style-type: none;
+.btn-1 {
+    border-radius: 0;
+    padding: 10px;
+    width: 183px;
 }
 @media (max-width:767.98px){
     .bg-skill{
