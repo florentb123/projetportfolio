@@ -6,8 +6,11 @@ html:root{
     --grey-dark: rgb(59,65,72);
     --lighter-grey: rgb(248,249,249);
 }
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .p-90{
     padding: 90px 0;
 }
