@@ -17,7 +17,9 @@ body{
 .row {
     margin: 0;
 }
-
+.f-size{
+    font-size: 12px;
+}
 /* header */
 
 
@@ -154,6 +156,7 @@ body{
 
 .color-darker-white{
     background-color: rgb(245,245 ,245);
+    
 }
 .btn:focus{
     box-shadow: none;
