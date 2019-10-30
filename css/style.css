@@ -6,10 +6,11 @@ html:root{
     --grey-dark: rgb(59,65,72);
     --lighter-grey: rgb(248,249,249);
 }
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500|Nunito+Sans&display=swap");
 
 body{
     font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .p-90{
     padding: 90px 0;
@@ -17,7 +18,9 @@ body{
 .row {
     margin: 0;
 }
-
+.f-size{
+    font-size: 12px;
+}
 /* header */
 
 
@@ -154,6 +157,7 @@ body{
 
 .color-darker-white{
     background-color: rgb(245,245 ,245);
+    
 }
 .btn:focus{
     box-shadow: none;
